@@ -31,5 +31,7 @@ class MainKtTest {
         assertEquals(/* expected = */ 0.0, /* actual = */ result, /* delta = */ 0.01)
         result = getCommission("Халва", 10_001.00, 30_000.0)
         assertEquals(/* expected = */ -1.0, /* actual = */ result, /* delta = */ 0.01)
+        result = getCommission("Халва", 10_001.00, 30_000.0)
+        assertEquals(/* expected = */ 50.0, /* actual = */ result, /* delta = */ 0.01)
     }
 }
