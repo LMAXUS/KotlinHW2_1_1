@@ -23,9 +23,4 @@ fun getCommission(cardType: String = "VK Pay", amount: Double, prevAmount: Doubl
 }
 
 fun main(){
-    println( getCommission("Maestro", 1_000.00, 500_000.0) )
-    println( getCommission("Maestro", 70_001.00, 530_000.0) )
-    println( getCommission("Maestro", 5_001.00, 70_000.0) )
-    println( getCommission("Мир", 10_000.00) )
-    println( getCommission("VK Pay", 14_000.00, 30_000.00) )
 }
